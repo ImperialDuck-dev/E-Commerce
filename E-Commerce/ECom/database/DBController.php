@@ -18,7 +18,7 @@ class DBController
         {
             echo "Fail".$this->con->connect_error;
         }
-        echo "Connection Successful!";
+        echo "Connection Successful! You are now connected to the Database!";
     }
 
     public function __destruct()
