@@ -18,6 +18,12 @@
 </head>
 <body>
     <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">E Commerce Website.</p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 border-right- border-left text-dark">LOGIN</a>
+        </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -41,7 +47,12 @@
                     <a class="nav-link active" href="#">CONTACT US</a>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-primary">LOG IN</button>
+                <form action="#" class="font-size-14 font-rale">
+                  <a href="#" class="py-2 rounded-pill color-black-bg">
+                    <span class="font-size-16 px-2 text-white"><i class="fas fa-car-side"></i></span>
+                    <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                  </a>
+                </form>
               </div>
             </div>
           </nav>
@@ -147,9 +158,9 @@
                               <div class="qty d-flex">
                                 <h6 class="font-baloo">Qty</h6>
                                 <div class="px-4 d-flex font-rale">
-                                  <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
-                                  <input type="text" class="qty-input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
-                                  <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                  <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                  <input type="text" class="qty-input border px-2 w-50 bg-light" disabled value="1" placeholder="1" data-id="pro1">
+                                  <button class="qty-down border bg-light" data-id="pro1"><i class="fas fa-angle-down"></i></button>
                                 </div>
                               </div>
                             </div>
