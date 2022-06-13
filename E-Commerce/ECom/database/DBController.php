@@ -7,7 +7,7 @@ class DBController
     protected $password = '';
     protected $database = "montemayor car dealership";
 
-    // connection property
+    // connection property of the sql
     public $con = null;
 
     // call constructor
