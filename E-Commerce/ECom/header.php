@@ -24,41 +24,39 @@
 </head>
 <body>
 <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
-        <p class="font-rale font-size-12 text-black-50 m-0">E Commerce Website.</p>
-        <div class="font-rale font-size-14">
-            <a href="#" class="px-3 border-right- border-left text-dark">LOGIN</a>
-        </div>
+    <div class=" text-center   px-4 py-1 bg-light ">
+        <p class="font-rale font-size-12 text-black-50 m-1">5 Star Customer Ratings&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspOverseas Delivery&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspBest Quality Vehicles</p>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg">
+    <nav class="navbar  navbar-expand-lg navbar-dark color-gray-bg font-size-30">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="Logos.png" alt="" width="30" height="30" class="d-inline-block align-text-mid ">   Montemayor Car Dealership</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav m-auto font-rubik">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">VEHICLE LIST</a>
+            <img src="Logos%20Revised.png" alt="" width="100" height="60" class="d-inline-block mx-2" id="logoStyle"></a>
+
+                <ul class="navbar-nav m-auto p-4 font-rubik">
+
+                    <li class="nav-item mx-5">
+                        <a class="color-white" href="#">BLOG</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">PRICE LIST</a>
+                    <li class="nav-item mx-5">
+                        <a class="color-white"  href="#">ABOUT</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">NEWS AND EVENTS<i class="fas fa-chevron-down"></i></a>
+
+                    <li class="nav-item mx-5">
+                        <a class="color-white" href="#">STORE</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">CONTACT US</a>
+                    <li class=" nav-item mx-5">
+                        <a class="color-white" href="#">CONTACT</>
                     </li>
+
+
+
                 </ul>
-                <form action="#" class="font-size-14 font-rale">
-                    <a href="#" class="py-2 rounded-pill color-black-bg">
-                        <span class="font-size-16 px-2 text-white"><i class="fas fa-car-side"></i></span>
-                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
-                    </a>
-                </form>
+                <div class="login_cart font-rale  font-size-30 align-left">
+                    <i class="fa-solid fa-magnifying-glass color-white mx-3" href="#"></i>
+                    <i class="fa-solid fa-truck-moving color-white mx-3" href="#"></i>
+                    <i class="fa-solid fa-user color-white mx-3" href="#"></i>
+                </div>
+
             </div>
         </div>
     </nav>
