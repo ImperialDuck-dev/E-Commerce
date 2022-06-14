@@ -16,7 +16,12 @@
                 <h5 class="font-ballo font-size-20 ">Honda Accord</h5>
                 <small>by Honda Motor Company</small>
                 <div class="d-flex">
-
+                    <div class="rating text-warning font-size-12">
+                        <span><i class ="fas fa-star"></i></span>
+                        <span><i class ="fas fa-star"></i></span>
+                        <span><i class ="fas fa-star"></i></span>
+                        <span><i class ="fas fa-star"></i></span>
+                        <span><i class ="far fa-star"></i></span>
                     </div>
                     <a href="#"class ="px-2 font-rale font-size-14">20,534 ratings | 1000+ answered questions</a>
                 </div>

@@ -15,7 +15,13 @@
                         <a><img src="../ECom/assets/cars/HONDA%20ACCORD.jpg" alt="cars1" class="img-fluid"</a>
                         <div class="text-center ">
                             <h6>HONDA ACCORD</h6>
-
+                            <div class="stars text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
                             <div class="price py-2">
                                 <span>$3000</span>
                             </div>
@@ -30,7 +36,13 @@
                         <a><img src="../ECom/assets/cars/TOYOTA%20CAMRY.jpg" alt="cars1" class="img-fluid"</a>
                         <div class="text-center ">
                             <h6>TOYOTA CAMRY</h6>
-
+                            <div class="stars text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
                             <div class="price py-2">
                                 <span>$3000</span>
                             </div>

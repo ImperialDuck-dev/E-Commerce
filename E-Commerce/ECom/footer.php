@@ -4,24 +4,24 @@
 <footer id="footer" class="bg-dark text-white py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-10">
+            <div class="col-lg-2 col-12">
                 <div>
                     <h4 class="font-rubik font-size-20">Information</h4>
                     <div class="d-flex flex-column flex-wrap">
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-2">About Us</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Delivery Information</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Privacy Policy</a>
-                        <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Terms & Conditions</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-10">
+            <div class="col-lg-2 col-12">
                 <h4 class="font-rubik font-size-20">Account</h4>
                 <div class="d-flex flex-column flex-wrap">
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-2">My Account</a>
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Order History</a>
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Wish List</a>
-                    <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Newsletters</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
                 </div>
             </div>
             <div class="col-lg-3 col-10">
@@ -30,11 +30,11 @@
                     partnership business that sells brand new mid range cars and
                     it is spearheaded by Hans Bagunu and Mathew James Muyco.</p>
             </div>
-            <div class="col-lg-3 col-10">
+            <div class="col-lg col-12">
                 <h4 class="font-rubik font-size-20">Newsletter</h4>
                 <form class="form-row">
                     <div class="col">
-                        <input type="text" class="form-control " placeholder="Email *">
+                        <input type="text" class="form-control" placeholder="Email *">
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
                     <div class="col"></div>
@@ -46,7 +46,7 @@
 
 
 <div class="copyright text-center bg-dark text-white py-2">
-    <p class="font-rale font-size-14">&copy; Copyrights 2020. Designed By Finn & Hans<a href="https://www.facebook.com/" class="color-second"></a></p>
+    <p class="font-rale font-size-14">&copy; Copyrights 2020. Designed By <a href="#" class="color-second"></a></p>
 </div>
 
 

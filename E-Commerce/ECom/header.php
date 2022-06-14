@@ -29,32 +29,37 @@
     </div>
     <nav class="navbar  navbar-expand-lg navbar-dark color-gray-bg font-size-30">
         <div class="container-fluid">
-            <img src="Logos%20Revised.png" alt="" width="100" height="60" class="d-inline-block mx-2" id="logoStyle"></a>
+            <img src="Logos%20Revised.png" alt="" width="100" height="60" class="d-inline-block mx-2" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
 
-                <ul class="navbar-nav m-auto p-4 font-rubik">
+                <ul class="navbar-nav m-auto p-4 font-rubik color-white">
 
-                    <li class="nav-item mx-5">
-                        <a class="color-white" href="#">BLOG</a>
+                    <li class="nav-item mx-5 ">
+                        <a class="nav-link active" href="#">BLOG</a>
                     </li>
 
                     <li class="nav-item mx-5">
-                        <a class="color-white"  href="#">ABOUT</a>
+                        <a class="nav-link active"  href="#">ABOUT</a>
                     </li>
 
                     <li class="nav-item mx-5">
-                        <a class="color-white" href="#">STORE</a>
+                        <a class="nav-link active" href="#">STORE</a>
                     </li>
                     <li class=" nav-item mx-5">
-                        <a class="color-white" href="#">CONTACT</>
+                        <a class="nav-link active" href="#">CONTACT</>
                     </li>
 
 
 
                 </ul>
                 <div class="login_cart font-rale  font-size-30 align-left">
-                    <i class="fa-solid fa-magnifying-glass color-white mx-3" href="#"></i>
-                    <i class="fa-solid fa-truck-moving color-white mx-3" href="#"></i>
-                    <i class="fa-solid fa-user color-white mx-3" href="#"></i>
+                    <i class="fas  fa-magnifying-glass color-white mx-3" href="#"></i>
+                    <i class="fas  fa-truck-moving color-white mx-3" href="#"></i>
+                    <i class="fas  fa-user color-white mx-3" href="#"></i>
                 </div>
 
             </div>
