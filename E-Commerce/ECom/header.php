@@ -30,7 +30,11 @@
             <a href="#" class="px-3 border-right- border-left text-dark">LOGIN</a>
         </div>
     </div>
+<<<<<<< Updated upstream
     <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg">
+=======
+    <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg py-2">
+>>>>>>> Stashed changes
         <div class="container-fluid">
 <<<<<<< HEAD
             <img src="Logos%20Revised.png" alt="" width="100" height="60" class="d-inline-block mx-2" ></a>
