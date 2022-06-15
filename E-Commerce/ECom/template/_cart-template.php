@@ -11,7 +11,7 @@
                 <!--  cart item  -->
                 <div class="row border-top py-3 mt-3">
                     <div class="col-sm-2">
-                        <img src="./assets/cars/HONDA%20ACCORD.jpg" style="height:120px" alt="cart1" class="img-fluid">
+                        <img src="#" style="height:120px" alt="cart1" class="img-fluid">
                     </div>
                     <div class="col-sm-8">
                         <h5 class="font-baloo font-size-20">Honda Accord</h5>
@@ -63,7 +63,7 @@
                 <!--  cart item  -->
                 <div class="row border-top py-3 mt-3">
                     <div class="col-sm-2">
-                        <img src="./assets/cars/HONDA%20ACCORD.jpg" style="height:120px" alt="cart1" class="img-fluid">
+                        <img src="#" style="height:120px" alt="cart1" class="img-fluid">
                     </div>
                     <div class="col-sm-8">
                         <h5 class="font-baloo font-size-20">Honda Accord</h5>

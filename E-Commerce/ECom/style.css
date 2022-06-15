@@ -32,6 +32,14 @@ button, button:focus {
     font-size: 20px;
 }
 
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
 .color-primary {
     color: #DA241C;
 }
@@ -61,7 +69,23 @@ button, button:focus {
 }
 
 .color-gray-bg {
-    background: #778899;
+    background: #697184;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-white-bg {
+    background: white;
+}
+
+.color-dirty_white{
+    color:#F2F1EF;
+}
+
+.color-dirty_white-bg{
+    backgroun:#F2F1EF;
 }
 
 #sale .owl-carousel .cars .item a {
