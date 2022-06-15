@@ -4,9 +4,6 @@
 <footer id="footer" class="bg-dark text-white py-5">
     <div class="container">
         <div class="row">
-            <a class="navbar-brand" href="#">
-                <img src="Logos%20Revised%20Two.png" width="170" height="50" alt="">
-            </a>
             <div class="col-lg-2 col-12">
                 <div>
                     <h4 class="font-rubik font-size-20">Information</h4>
