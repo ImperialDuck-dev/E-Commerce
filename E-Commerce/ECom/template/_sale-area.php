@@ -6,9 +6,10 @@
             <div class="cars py-2">
                 <div class="item font-rale">
                     <div class="d-flex flex-column">
-                        <a><img src="#" alt="cars1" class="img-fluid"</a>
+                        <a><img src="./assets/cars/FJ%20Cruiser.jpg" alt="cars1" class="img-fluid"</a>
                         <div class="text-center ">
-                            <h6>TOYOTA CAMRY</h6>
+                            <h6>TOYOTA CRUISER</h6>
+
 
                             <div class="price py-2">
                                 <span>$3000</span>
