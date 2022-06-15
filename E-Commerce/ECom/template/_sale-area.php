@@ -3,10 +3,9 @@
         <h4 class="font-rubik font-size-20">ON SALE!!</h4>
         <hr>
         <div class="owl-carousel owl-theme">
-            <div class="cars py-3">
+            <div class="cars py-2">
                 <div class="item font-rale">
                     <div class="d-flex flex-column">
-<<<<<<< Updated upstream
                         <a><img src="../ECom/assets/cars/TOYOTA%20CAMRY.jpg" alt="cars1" class="img-fluid"</a>
                         <div class="text-center ">
                             <h6>TOYOTA CAMRY</h6>
@@ -17,11 +16,6 @@
                                 <span><i class="fas fa-star"></i></span>
                                 <span><i class="far fa-star"></i></span>
                             </div>
-=======
-                        <a><img src="./assets/cars/FJ%20Cruiser.jpg" alt="cars1" class="img-fluid"  </a>
-                        <div class="text-center py-5">
-                            <h6>TOYOTA Cruiser</h6>
->>>>>>> Stashed changes
                             <div class="price py-2">
                                 <span>$3000</span>
                             </div>
@@ -30,7 +24,6 @@
                     </div>
                 </div>
             </div>
-<<<<<<< Updated upstream
             <div class="cars py-2">
                 <div class="item font-rale">
                     <a><img src="../ECom/assets/cars/SUBARU%20LEGACY.jpg" alt="cars1" class="img-fluid"</a>
@@ -164,17 +157,6 @@
                     </div>
                 </div>
             </div>
-=======
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
         </div>
     </div>
 </section>
