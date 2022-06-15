@@ -32,6 +32,21 @@ button, button:focus {
     font-size: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.font-size-80 {
+    font-size: 80px;
+}
+
+>>>>>>> Stashed changes
 .color-primary {
     color: #DA241C;
 }
@@ -100,5 +115,35 @@ button, button:focus {
     margin-right: -4rem;
     padding: 0 1rem;
 }
+
+.owl-heading-overlay {
+    position: absolute;
+    width: 100%;
+    top: 36%;
+    left: 170px;
+    right: 120px;
+}
+
+.owl-text-overlay {
+    position: absolute;
+    width: 100%;
+    top: 62%;
+    left: 160px;
+    right: 120px;
+    font-size:30px;
+    margin-left: -5px;
+}
+
+.owl-img-overlay {
+    position: absolute;
+    width: 35%;
+    top: 22%;
+    left: 0;
+    right: 120px;
+    font-size:30px;
+    opacity: 0.4;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
