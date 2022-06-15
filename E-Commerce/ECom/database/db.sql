@@ -36,7 +36,7 @@ CREATE TABLE `cars` (
   `item_id` int(11) NOT NULL,
   `item_brand` varchar(200) NOT NULL,
   `item_name` varchar(255) NOT NULL,
-  `item_price` double(10,2) NOT NULL,
+  `item_price` double (15,2) NOT NULL,
   `item_image` varchar(255) NOT NULL,
   `item_register` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -46,16 +46,16 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`, `item_register`) VALUES
-(1, 'Toyota', 'Corolla Cross GT-S HEV', 1,774,000.00, './assets/cars/Corolla Cross.png', '2022-06-15 13:05:30'), -- NOW()
-(2, 'Toyota', 'FJ Cruiser 4.0 V6', 2,218,000.00, './assets/cars/FJ Cruiser.png', '2022-06-15 13:05:30'),
-(3, 'Toyota', 'Fortuner GR-S 4x4 2.8 AT', 2,509,000.00, './assets/cars/FORTUNER GR 5.png', '2022-06-15 13:05:30'),
-(4, 'Toyota', 'Fortuner 2.8 4x4 LTD AT', 2,450,000.00, './assets/cars/FORTUNER.png', '2022-06-15 13:05:30'),
-(5, 'Toyota', 'Land Cruiser Prado 2.8L Diesel A/T', 4,250,000.00, './assets/cars/LAND CRUISER PRADO.png', '2022-06-15 13:05:30'),
-(6, 'Toyota', 'Land Cruiser ZX', 5,687,000.00, './assets/cars/LAND CRUISER.png', '2022-06-15 13:05:30'),
-(7, 'Toyota', 'Raize 1.0 Turbo CVT', 122.00, './assets/cars/RAIZE.png', '2022-06-15 13:05:30'),
-(8, 'Toyota', 'RAV4 HEV 2.5L LTD CVT', 2,500,000.00, './assets/cars/RAV4 HEV.png', '2022-06-15 13:05:30'),
-(9, 'Toyota', 'Rush 1.5 E A/T', 1,052,000.00, './assets/cars/RUSH.png', '2022-06-15 13:05:30'),
-(10, 'Toyota', 'Veloz 1.5V CVT ',1,240,000.00, './assets/cars/VELOZ.png', '2022-06-15 13:05:30'),
+(1, 'Toyota', 'Corolla Cross GT-S HEV', 1.774, './assets/cars/CorollaCross.png', '2022-06-15 13:05:30'), -- NOW()
+(2, 'Toyota', 'FJ Cruiser 4.0 V6', 2.218, './assets/cars/FJCruiser.png', '2022-06-15 13:05:30'),
+(3, 'Toyota', 'Fortuner GR-S 4x4 2.8 AT', 2.509, './assets/cars/FORTUNERGR5.png', '2022-06-15 13:05:30'),
+(4, 'Toyota', 'Fortuner 2.8 4x4 LTD AT', 2.450, './assets/cars/FORTUNER.png', '2022-06-15 13:05:30'),
+(5, 'Toyota', 'Land Cruiser Prado 2.8L Diesel A/T', 4.250, './assets/cars/LANDCRUISERPRADO.png', '2022-06-15 13:05:30'),
+(6, 'Toyota', 'Land Cruiser ZX', 5.687, './assets/cars/LANDCRUISER.png', '2022-06-15 13:05:30'),
+(7, 'Toyota', 'Raize 1.0 Turbo CVT', 1.031, './assets/cars/RAIZE.png', '2022-06-15 13:05:30'),
+(8, 'Toyota', 'RAV4 HEV 2.5L LTD CVT', 2.500, './assets/cars/RAV4HEV.png', '2022-06-15 13:05:30'),
+(9, 'Toyota', 'Rush 1.5 E A/T', 1.052, './assets/cars/RUSH.png', '2022-06-15 13:05:30'),
+(10, 'Toyota', 'Veloz 1.5V CVT ',1.240, './assets/cars/VELOZ.png', '2022-06-15 13:05:30');
 -- --------------------------------------------------------
 
 --
@@ -74,8 +74,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `register_date`) VALUES
-(1, 'Skip', 'Hans', 'Bagunu' '2022-06-15 13:05:30'),
-(2, 'Finn', 'Mathew','Muyco', '2022-06-15 13:05:30');
+(1, 'Hans', 'Bagunu', '2022-06-15 13:05:30'),
+(2, 'Finn', 'Muyco', '2022-06-15 13:05:30');
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,7 @@ ALTER TABLE `cart`
 --
 -- Indexes for table `product`
 --
-ALTER TABLE `product`
+ALTER TABLE `cars`
   ADD PRIMARY KEY (`item_id`);
 
 --
@@ -124,7 +124,7 @@ ALTER TABLE `cart`
 --
 -- AUTO_INCREMENT for table `product`
 --
-ALTER TABLE `product`
+ALTER TABLE `cars`
   MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
