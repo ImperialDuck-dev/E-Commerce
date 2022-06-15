@@ -1,6 +1,4 @@
 <?php
-
-
 // use to fetch cars data
 class cars
 {
@@ -13,7 +11,7 @@ class cars
     }
 
     // fetch car data using getData method
-    public function getCar_Data($table = 'cart')
+    public function getCar_Data($table = 'cars')
     {
         $result = $this->db->con->query( query: "SELECT * FROM {$table}");
 
@@ -27,4 +25,5 @@ class cars
 
         return $resultArray;
     }
+
 }
