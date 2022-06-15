@@ -170,4 +170,9 @@ button, button:focus {
     border-color: gray;
     border-radius:  10px;
 }
+.buy-now{
+    position: relative;
+    bottom: 117px;
+    right: 105px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -14,10 +14,10 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-            100:{
+            600:{
                 items:3
             },
-            500:{
+            100:{
                 items:5
             }
         }
