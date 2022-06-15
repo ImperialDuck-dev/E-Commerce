@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="./assets/cars/HONDA%20ACCORD.jpg" alt="product" class="img-fluid">
+                <img src="./assets/cars/FJ%20Cruiser.jpg" alt="product" class="img-fluid">
                 <div class="form-row pt-4 font-size-16 font-ballo">
                     <div class="col">
                         <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
@@ -13,16 +13,9 @@
                 </div>
             </div>
             <div class="col-sm-6 py-5">
-                <h5 class="font-ballo font-size-20 ">Honda Accord</h5>
-                <small>by Honda Motor Company</small>
+                <h5 class="font-ballo font-size-20 " >Toyota FJ Cruiser</h5>
+                <small>by Toyota Motor Company</small>
                 <div class="d-flex">
-                    <div class="rating text-warning font-size-12">
-                        <span><i class ="fas fa-star"></i></span>
-                        <span><i class ="fas fa-star"></i></span>
-                        <span><i class ="fas fa-star"></i></span>
-                        <span><i class ="fas fa-star"></i></span>
-                        <span><i class ="far fa-star"></i></span>
-                    </div>
                     <a href="#"class ="px-2 font-rale font-size-14">20,534 ratings | 1000+ answered questions</a>
                 </div>
                 <hr class ="m-0">
@@ -43,40 +36,7 @@
                     </tr>
                 </table>
 
-                <!-- policy  -->
-                <div id="policy">
-                    <div class="d-flex">
-                        <div class="return text-center mr-5">
-                            <div class="font-size-20 my-2 color-second">
-                                        <span class="fas fa-retweet border p-3 rounded-pill">
-                                        </span>
-                            </div>
-                            <a href="#" class ="font-rale font-size-12">10 Days<br>Replacement</a>
-                        </div>
-                        <div class="return text-center mr-5">
-                            <div class="font-size-20 my-2 color-second">
-                                        <span class="fas fa-truck border p-3 rounded-pill">
-                                        </span>
-                            </div>
-                            <a href="#" class ="font-rale font-size-12">Fast Delivery<br>Guaranteed</a>
-                        </div>
-                        <div class="return text-center mr-5">
-                            <div class="font-size-20 my-2 color-second">
-                                        <span class="fas fa-check-double border p-3 rounded-pill">
-                                        </span>
-                            </div>
-                            <a href="#" class ="font-rale font-size-12">1 Week<br>Free Service</a>
-                        </div>
-                    </div>
 
-                </div>
-
-                <!-- order details  -->
-                <div id="order_details" class="font-rale d-flex flex-column text-dark">
-                    <small>Delivery by: Mar-29 - Apr 1</small>
-                    <small>Sold by Montemayor Car Dealership</small>
-                    <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 69690</small>
-                </div>
 
                 <!--  color  -->
                 <div class="row">
@@ -127,17 +87,51 @@
                 <!-- months -->
                 <div class="size my-3">
                     <h6 class="font-baloo">Months:</h6>
-                    <div class="d-flex justify-content-between w-75">
+                    <div class="d-flex justify-content-between w-25">
                         <div class="div-font-rubik border p-2">
-                            <button class="btn p-0 font-size-14">36%</button>
+                            <button class="btn p-0 font-size-14">36</button>
                         </div>
                         <div class="div-font-rubik border p-2">
-                            <button class="btn p-0 font-size-14">48%</button>
+                            <button class="btn p-0 font-size-14">48</button>
                         </div>
                         <div class="div-font-rubik border p-2">
-                            <button class="btn p-0 font-size-14">60%</button>
+                            <button class="btn p-0 font-size-14">60</button>
                         </div>
                     </div>
+                </div>
+                <!-- policy  -->
+                <div id="policy">
+                    <div class="d-flex">
+                        <div class="return text-center mr-5">
+                            <div class="font-size-20 my-2 color-second">
+                                        <span class="fas fa-retweet border p-3 rounded-pill">
+                                        </span>
+                            </div>
+                            <a href="#" class ="font-rale font-size-12">10 Days<br>Replacement</a>
+                        </div>
+                        <div class="return text-center mr-5">
+                            <div class="font-size-20 my-2 color-second">
+                                        <span class="fas fa-truck border p-3 rounded-pill">
+                                        </span>
+                            </div>
+                            <a href="#" class ="font-rale font-size-12">Fast Delivery<br>Guaranteed</a>
+                        </div>
+                        <div class="return text-center mr-5">
+                            <div class="font-size-20 my-2 color-second">
+                                        <span class="fas fa-check-double border p-3 rounded-pill">
+                                        </span>
+                            </div>
+                            <a href="#" class ="font-rale font-size-12">1 Week<br>Free Service</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- order details  -->
+                <div id="order_details" class="font-rale d-flex flex-column text-dark">
+                    <small>Delivery by: Mar-29 - Apr 1</small>
+                    <small>Sold by Montemayor Car Dealership</small>
+                    <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 69690</small>
                 </div>
             </div>
         </div>
