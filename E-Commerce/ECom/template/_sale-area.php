@@ -13,9 +13,9 @@
 
                             <div class="price py-2">
                                 <span>$3000</span>
-                            </div>
-                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-                        </div>
+                                <div class="col">
+                                    <button type="submit" class="btn-cart color-dirty_white-bg form-control font-baloo">ADD TO CART</button>
+                                </div>
                     </div>
                 </div>
             </div>

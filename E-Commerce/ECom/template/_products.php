@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="./assets/cars/FJ%20Cruiser.jpg" alt="product" class="img-fluid">
+                <img src="./assets/cars/FJ%20Cruiser.jpg"  alt="product" class="img-fluid">
                 <div class="form-row pt-4 font-size-16 font-ballo">
                     <div class="col">
-                        <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
+                        <button type="submit" class="btn-buy color-gray-bg color-white font-baloo form-control">PROCEED TO BUY</button>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                        <button type="submit" class="btn-cart color-dirty_white-bg form-control font-baloo">ADD TO CART</button>
                     </div>
                 </div>
             </div>

@@ -19,9 +19,9 @@
 
                             <div class="price py-2">
                                 <span>$3000</span>
-                            </div>
-                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-                        </div>
+                                <div class="col">
+                                    <button type="submit" class="btn-buy color-gray-bg color-white font-baloo form-control">PROCEED TO BUY</button>
+                                </div>
                     </div>
                 </div>
             </div>
@@ -35,9 +35,9 @@
 
                             <div class="price py-2">
                                 <span>$3000</span>
-                            </div>
-                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-                        </div>
+                                <div class="col">
+                                    <button type="submit" class="btn-buy color-gray-bg color-white font-baloo form-control">PROCEED TO BUY</button>
+                                </div>
                     </div>
                 </div>
             </div>

@@ -160,4 +160,14 @@ button, button:focus {
     font-size:30px;
     opacity: 0.4;
 }
+
+.btn-cart {
+    border-color: gray;
+    border-radius:  10px;
+}
+
+.btn-buy {
+    border-color: gray;
+    border-radius:  10px;
+}
 /*# sourceMappingURL=style.css.map */
