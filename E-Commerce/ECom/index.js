@@ -23,10 +23,11 @@ $(document).ready(function(){
         }
     });
 
-    var $grid = $(".grid").isotope({
+    var $grid = $("#grid").isotope({
         itemSelector:'.grid-cars',
         layoutMode:'fitRows'
     });
+
 
     $(".button-group").on("click","button",function(){
         var filterVal=$(this).attr('data-filter');
