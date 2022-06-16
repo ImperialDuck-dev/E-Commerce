@@ -38,6 +38,7 @@ CREATE TABLE `cars` (
   `item_name` varchar(255) NOT NULL,
   `item_price` double (15,2) NOT NULL,
   `item_image` varchar(255) NOT NULL,
+  `item_image_secondary` varchar(255) NOT NULL,
   `item_register` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -45,17 +46,19 @@ CREATE TABLE `cars` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `cars` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`, `item_register`) VALUES
-(1, 'Toyota', 'Corolla Cross GT-S HEV', 1.774, './assets/cars/CorollaCross.png', '2022-06-15 13:05:30'), -- NOW()
-(2, 'Toyota', 'FJ Cruiser 4.0 V6', 2.218, './assets/cars/FJCruiser.png', '2022-06-15 13:05:30'),
-(3, 'Toyota', 'Fortuner GR-S 4x4 2.8 AT', 2.509, './assets/cars/FORTUNERGR5.png', '2022-06-15 13:05:30'),
-(4, 'Toyota', 'Fortuner 2.8 4x4 LTD AT', 2.450, './assets/cars/FORTUNER.png', '2022-06-15 13:05:30'),
-(5, 'Toyota', 'Land Cruiser Prado 2.8L Diesel A/T', 4.250, './assets/cars/LANDCRUISERPRADO.png', '2022-06-15 13:05:30'),
-(6, 'Toyota', 'Land Cruiser ZX', 5.687, './assets/cars/LANDCRUISER.png', '2022-06-15 13:05:30'),
-(7, 'Toyota', 'Raize 1.0 Turbo CVT', 1.031, './assets/cars/RAIZE.png', '2022-06-15 13:05:30'),
-(8, 'Toyota', 'RAV4 HEV 2.5L LTD CVT', 2.500, './assets/cars/RAV4HEV.png', '2022-06-15 13:05:30'),
-(9, 'Toyota', 'Rush 1.5 E A/T', 1.052, './assets/cars/RUSH.png', '2022-06-15 13:05:30'),
-(10, 'Toyota', 'Veloz 1.5V CVT ',1.240, './assets/cars/VELOZ.png', '2022-06-15 13:05:30');
+INSERT INTO `cars` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`,`item_image_secondary`, `item_register`) VALUES
+(1, 'Toyota', 'Corolla Cross GT-S HEV', 1.774, './assets/cars/CorollaCross.png', './assets/cars/1.png' ,'2022-06-15 13:05:30'), -- NOW()
+(2, 'Toyota', 'FJ Cruiser 4.0 V6', 2.218, './assets/cars/FJCruiser.png','./assets/cars/2.png' , '2022-06-15 13:05:30'),
+(3, 'Toyota', 'Fortuner GR-S 4x4 2.8 AT', 2.509, './assets/cars/FORTUNERGR5.png','./assets/cars/3.png' , '2022-06-15 13:05:30'),
+(4, 'Toyota', 'Fortuner 2.8 4x4 LTD AT', 2.450, './assets/cars/FORTUNER.png','./assets/cars/4.png' , '2022-06-15 13:05:30'),
+(5, 'Toyota', 'Land Cruiser Prado 2.8L Diesel A/T', 4.250, './assets/cars/LANDCRUISERPRADO.png','./assets/cars/5.png' , '2022-06-15 13:05:30'),
+(6, 'Toyota', 'Land Cruiser ZX', 5.687, './assets/cars/LANDCRUISER.png','./assets/cars/6.png' , '2022-06-15 13:05:30'),
+(7, 'Toyota', 'Raize 1.0 Turbo CVT', 1.031, './assets/cars/RAIZE.png','./assets/cars/7.png' , '2022-06-15 13:05:30'),
+(8, 'Toyota', 'RAV4 HEV 2.5L LTD CVT', 2.500, './assets/cars/RAV4HEV.png','./assets/cars/8.png' , '2022-06-15 13:05:30'),
+(9, 'Toyota', 'Rush 1.5 E A/T', 1.052, './assets/cars/RUSH.png','./assets/cars/9.png' , '2022-06-15 13:05:30'),
+(10, 'Icon', 'Veloz 1.5V CVT ',1.240, './assets/cars/VELOZ.png','./assets/cars/10.png' , '2022-06-15 13:05:30');
+
+
 -- --------------------------------------------------------
 
 --

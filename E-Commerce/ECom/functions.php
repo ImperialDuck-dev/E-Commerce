@@ -9,7 +9,6 @@ require ('database/cars.php');
 //DBController object
 $db = new DBController();
 
-
 //Car object
 $product = new cars($db);
 

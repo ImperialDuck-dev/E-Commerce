@@ -21,6 +21,10 @@
         require('functions.php');
     ?>
 
+    <?
+        require('/datab')
+    ?>
+
 </head>
 <body>
 <header id="header">
