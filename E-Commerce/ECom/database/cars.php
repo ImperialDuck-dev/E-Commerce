@@ -11,9 +11,9 @@ class cars
     }
 
     // fetch car data using getData method
-    public function getCar_Data($table = 'cars')
+    public function getCar_Data($table = 'cars'): array
     {
-        $result = $this->db->con->query( query: "SELECT * FROM {$table}");
+        $result = $this->db->con->query("SELECT * FROM ($table)");
 
         $resultArray = array();
 

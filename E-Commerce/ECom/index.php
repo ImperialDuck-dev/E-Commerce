@@ -11,6 +11,7 @@
     /*   include sale section   */
     include('template/_sale-area.php');
 
+
     /*   include offer section   */
     include('template/_offer-area.php');
 
@@ -21,3 +22,4 @@
 //include footer.php
 include('footer.php');
 ?>
+

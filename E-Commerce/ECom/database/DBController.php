@@ -8,7 +8,7 @@ class DBController
     protected $database = "montemayor car dealership";
 
     // connection property of the sql
-    public $con = null;
+    public mysqli|null|false $con = null;
 
     // call constructor
     public function __construct()
@@ -18,7 +18,6 @@ class DBController
         {
             echo "Fail".$this->con->connect_error;
         }
-        echo "Connection Successful! You are now connected to the Database!";
     }
 
     public function __destruct()
