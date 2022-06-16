@@ -9,7 +9,6 @@ include ('database/cars.php');
 $db = new DBController();
 
 //Car object
-
 $product = new cars($db);
 print_r($product->getCar_Data());
 ?>

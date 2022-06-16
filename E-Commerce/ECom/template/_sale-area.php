@@ -1,6 +1,17 @@
 <?php
+//require MYSQL connection
+require ('C:\Users\Finn\Documents\GitHub\E-Commerce\E-Commerce\ECom\database\cars.php');
 
-    $product_shuffle = $product->getCar_Data();
+//require car class
+require ('C:\Users\Finn\Documents\GitHub\E-Commerce\E-Commerce\ECom\database\DBController.php');
+
+//DBController object
+$db = new DBController();
+
+//Car object
+$product = new cars($db);
+$product_shuffle = $product->getCar_Data();
+
 ?>
 <section id ="sale">
     <div class="container py-5 color-dirty_white-bg">
@@ -8,13 +19,13 @@
         <hr>
         <div class="owl-carousel owl-theme">
         <?php
-       // foreach ($product_shuffle as $item)
+        foreach ($product_shuffle as $item)
         {
         ?>
             <div class="cars py-2">
                 <div class="item font-rale">
                     <div class="d-flex flex-column">
-                        <a href="#"><img src="<?php echo $item['item_image'] ?? "./assets/cars/1.png"?>" alt="cars1" class="img-fluid"></a>
+                        <a href="#"><img src="<?php echo $item['item_image'] ?? "./assets/cars/1.png"?>" alt="cars1" class="img-fluid mx-2"></a>
                         <div class="text-center ">
                             <h6>TOYOTA CRUISER</h6>
                             <divrnd class="price py-2">
