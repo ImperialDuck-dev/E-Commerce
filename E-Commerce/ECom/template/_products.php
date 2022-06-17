@@ -1,20 +1,39 @@
+<?php
+
+    $item_id= $_GET['item_id'] ?? 1;
+    foreach ($product->getCar_Data()as $item):
+        if($item['item_id']==$item_id):
+
+
+    ?>
+
 <section id ="product" class ="py-3">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="./assets/cars/FJ%20Cruiser.jpg"  alt="product" class="img-fluid">
+                <img src="<?php echo $item['item_image']?>"  alt="product" class="img-fluid">
                 <div class="form-row pt-4 font-size-16 font-ballo">
                     <div class="col">
                         <button type="submit" class="btn-buy color-gray-bg color-white font-baloo form-control">PROCEED TO BUY</button>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn-cart color-dirty_white-bg form-control font-baloo">ADD TO CART</button>
+                        <form method="post">
+                            <input type="hidden" name="item_id" value="<?php echo $item['item_id']?>">
+                            <input type="hidden" name="user_id" value="<?php echo 1?>">
+                            <?php
+                            if(in_array($item['item_id'],$Cart->getCartID($product->getCar_Data('cart')) ?? [])){
+                                echo '<button type="submit" disabled class="product_submit color-black-bg form-control font-baloo">IN THE CART</button>';
+                            }else{
+                                echo '<button type="submit" name="product_submit" class="color-dirty_white-bg form-control font-baloo">ADD TO CART</button>';
+                            }
+                            ?>
+                        </form>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 py-5">
-                <h5 class="font-ballo font-size-20 " >Toyota FJ Cruiser</h5>
-                <small>by Toyota Motor Company</small>
+                <h5 class="font-ballo font-size-20 " ><?php echo $item['item_name']?></h5>
+                <small>by <?php echo $item['item_brand']?></small>
                 <div class="d-flex">
                     <a href="#"class ="px-2 font-rale font-size-14">20,534 ratings | 1000+ answered questions</a>
                 </div>
@@ -23,16 +42,8 @@
                 <!--  product price  -->
                 <table class="my-3">
                     <tr class="font-rale font-size-14">
-                        <td>M.R.P</td>
-                        <td><strike>₱ 2,350,000</strike></td>
-                    </tr>
-                    <tr class="font-rale font-size-14">
-                        <td>Deal Price</td>
-                        <td class="font-size-20 text-danger">₱<span>2,100,000</span><small class="text-dark font-size-12">&nbsp;&nbsp;inclusive of all taxes</small></td>
-                    </tr>
-                    <tr class="font-rale font-size-14">
-                        <td>You Save</td>
-                        <td class="font-size-16 text-danger">₱<span>250,000</span></td>
+                        <td>Deal Price:</td>
+                        <td class="font-size-20 text-danger">₱ <span><?php echo $item['item_price']?></span><small class="text-dark font-size-12">&nbsp;&nbsp;inclusive of all taxes</small></td>
                     </tr>
                 </table>
 
@@ -147,3 +158,8 @@
 
     </div>
 </section>
+
+<?php
+        endif;
+        endforeach;
+        ?>

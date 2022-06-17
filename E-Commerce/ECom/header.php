@@ -16,20 +16,20 @@
     <!--custom css file-->
     <link rel="stylesheet" href="style.css">
 
-    <?
-        //require functions.php
-        require('functions.php');
+    <?php
+    //require functions.php file
+    require ('functions.php');
     ?>
 
 </head>
 <body>
 <header id="header">
     <div class=" text-center px-4 py-1 color-dirty_white-bg">
-        <p class="font-rale font-size-12 text-black-50 my-1">5 Star Customer Ratings&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspOverseas Delivery&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspBest Quality Vehicles</p>
+        <p class="font-rale font-size-12 text-black-50 my-1" >5 Star Customer Ratings&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspOverseas Delivery&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbspBest Quality Vehicles</p>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg py-4">
+    <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg py-3">
         <div class="container-fluid">
-            <img src=./Logos%20Revised%20Two.png alt="" width="220" height="55" class="d-inline-block align-text-mid mx-5 my-2 "></a>
+            <a href="index.php"><img src=/Logos%20Revised%20Two.png  alt="" width="220" height="55" class="d-inline-block align-text-mid mx-5 my-2 "></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,9 +57,9 @@
                     <a href="#">
                         <span><i class="fa-solid fa-user color-white mx-3"></i></span>
                     </a>
-                    <a href="#">
+                    <a href="cart.php">
                         <span class="font-size-20 px-2 text-white mx-3"><i class="fa-solid fa-cart-flatbed"></i></span>
-                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light font-size-16 font-baloo"><?php echo count($product->getCar_Data('cart'));?></span>
                     </a>
 
             </div>

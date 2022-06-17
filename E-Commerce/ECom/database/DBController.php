@@ -8,7 +8,7 @@ class DBController
     protected $database = "montemayor car dealership";
 
     // connection property of the sql
-    public mysqli|null|false $con = null;
+    public $con = null;
 
     // call constructor
     public function __construct()
