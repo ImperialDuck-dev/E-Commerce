@@ -4,6 +4,18 @@
     foreach ($product->getCar_Data('cars_products')as $item):
         if($item['item_id']==$item_id):
 
+            if($_SERVER["REQUEST_METHOD"] == "POST")
+            {
+                if(isset($_POST["product_submit"]))
+                {
+                    //call method addToCart
+                    $Cart->addToCart($_POST['user_id'],$_POST['item_id']);
+                }
+
+            }
+            $in_Cart = $Cart->getCartID($product->getCar_Data('cart'));
+
+            ?>
 
     ?>
 

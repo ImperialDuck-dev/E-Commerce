@@ -12,7 +12,7 @@
             <div class="owl-text-overlay">
                 <p class="col-lg-4 col-12 font-rale color-white font-size-20 pb-1 m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed auctor odio, et pharetra nulla. Proin consectetur maximus ligula id pellentesque. Morbi ut eros ut justo sollicitudin ullamcorper.</p>
             </div>
-            <img src="../ECom/assets/banner.jpg" class="img-fluid" width="1444" height="834" alt ="banner">
+            <img src="../ECom/assets/banner.jpg" class="" width="1444" height="834" alt ="banner">
         </div>
         <div class = "item">
             <div class="owl-img-overlay">
@@ -25,7 +25,7 @@
             <div class="owl-text-overlay">
                 <p class="col-lg-4 col-12 font-rale color-white font-size-20 pb-1 m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed auctor odio, et pharetra nulla. Proin consectetur maximus ligula id pellentesque. Morbi ut eros ut justo sollicitudin ullamcorper.</p>
             </div>
-            <img src="../ECom/assets/banner1.jpg" class="img-fluid" width="1444" height="834" alt ="banner1">
+            <img src="../ECom/assets/banner1.jpg" class="" width="1444" height="834" alt ="banner1">
         </div>
         <div class = "item">
             <div class="owl-img-overlay">
@@ -38,7 +38,7 @@
             <div class="owl-text-overlay">
                 <p class="col-lg-4 col-12 font-rale color-white font-size-20 pb-1 m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed auctor odio, et pharetra nulla. Proin consectetur maximus ligula id pellentesque. Morbi ut eros ut justo sollicitudin ullamcorper.</p>
             </div>
-            <img src="../ECom/assets/banner2.jpg" class="img-fluid" width="1444" height="834" alt ="banner2">
+            <img src="../ECom/assets/banner2.jpg" class="" width="1444" height="834" alt ="banner2">
         </div>
     </div>
 </section>

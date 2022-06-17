@@ -34,7 +34,7 @@
 
     <!-- Primary Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark color-gray-bg py-3">
-        <a class="navbar-brand" href="index.php"><img src=/Logos%20Revised%20Two.png  alt="" width="220" height="55" class="d-inline-block align-text-mid mx-5 my-2 "></a>
+        <a class="navbar-brand" href="index.php"><img src=./Logos%20Revised%20Two.png  alt="" width="240" height="55" class="d-inline-block align-text-mid mx-5 my-2 "></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,11 +55,10 @@
             </ul>
             <form action="#" class="font-size-20 font-rale">
                 <a href="#">
-                    <span><i class="fa-solid fa-user color-white mx-3"></i></span>
+                    <span><i class="fas fa-user color-white mx-2"></i></span>
                 </a>
                 <a href="cart.php">
-                    <span class="font-size-20 px-2 text-white mx-3"><i class="fa-solid fa-cart-flatbed"></i></span>
-                    <span class="px-3 py-2 rounded-pill text-dark bg-light font-size-16 font-baloo"><?php echo count($product->getCar_Data('cart'));?></span>
+                    <span class="px-3 py-2 mx-3 rounded-pill text-dark bg-light  font-size-20 font-baloo"><i class="fas fa-shopping-cart color-black"></i><?php echo count($product->getCar_Data('cart'));?></span>
                 </a>
             </form>
         </div>
