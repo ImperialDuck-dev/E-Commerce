@@ -5,6 +5,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 
 }
+
+function asDollars($value)
+{
+    if ($value<0) return "-".asDollars(-$value);
+    return '₱ ' . number_format($value, 2);
+}
 ?>
 <!-- Shopping cart  -->
 <section id="cart" class="py-3">
@@ -52,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
                     <div class="col-sm-2 text-right">
                         <div class="font-size-20 text-danger font-baloo">
-                            ₱<span class ="product_price" data-id="<?php echo $item['item_id']?>"><?php echo $item['item_price']?></span>
+                            <span class ="product_price" data-id="<?php echo $item['item_id']?>"><?php echo $pricetotal=asDollars($item['item_price']);?></span>
                         </div>
                     </div>
                 </div>
@@ -68,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <div class="sub-total border text-center mt-2">
                     <h6 class="font-size-12 font-rale text-success p-3"><i class="fas fa-check"></i>Your order is eligible for FREE DELIVERY</h6>
                     <div class="border-top py-4">
-                        <h5 class="font-baloo font-size-20">Subtotal (<?php echo isset($subTotal) ? count($subTotal) : 0?> items)&nbsp;<span class="text-danger">₱</span><span class="text-danger" id="deal-price"><?php echo isset($subTotal) ? $Cart->getSum($subTotal) : 0;?></span></h5>
+                        <h5 class="font-baloo font-size-20">Subtotal (<?php echo isset($subTotal) ? count($subTotal) : 0?> items)&nbsp;<span class="text-danger"></span><span class="text-danger" id="deal-price"><?php echo isset($subTotal) ? $Cart->getSum($subTotal) : 0;?></span></h5>
                         <button type="submit" class="btn-buy color-gray-bg color-white mx-3 font-baloo ">PROCEED TO BUY</button>
                     </div>
                 </div>

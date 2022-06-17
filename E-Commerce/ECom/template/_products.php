@@ -1,7 +1,13 @@
 <?php
 
-    $item_id= $_GET['item_id'] ?? 1;
-    foreach ($product->getCar_Data('cars_products')as $item):
+
+function asDollars($value)
+{
+    if ($value<0) return "-".asDollars(-$value);
+    return '₱ ' . number_format($value, 2);
+}
+$item_id= $_GET['item_id'] ?? 1;
+foreach ($product->getCar_Data('cars_products') as $item):
         if($item['item_id']==$item_id):
 
             if($_SERVER["REQUEST_METHOD"] == "POST")
@@ -55,11 +61,13 @@
                 <table class="my-3">
                     <tr class="font-rale font-size-14">
                         <td>Deal Price:</td>
-                        <td class="font-size-20 text-danger">₱ <span><?php echo $item['item_price']?></span><small class="text-dark font-size-12">&nbsp;&nbsp;inclusive of all taxes</small></td>
+                        <td class="font-size-20 text-danger"><span><?php echo $pricetotal=asDollars($item['item_price']);?></span><small class="text-dark font-size-12">&nbsp;&nbsp;inclusive of all taxes</small></td>
                     </tr>
                 </table>
 
 
+                <?php
+                /*
 
                 <!--  color  -->
                 <div class="row">
@@ -122,6 +130,9 @@
                         </div>
                     </div>
                 </div>
+                */
+            ?>
+
                 <!-- policy  -->
                 <div id="policy">
                     <div class="d-flex">
@@ -161,10 +172,8 @@
         <div class="col-12">
             <h6 class="font-rubik">Product Description</h6>
             <hr>
-            <p class="font-rale font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium tincidunt mauris, nec aliquam libero venenatis porta. Sed faucibus libero quis tortor malesuada, vel rhoncus dolor facilisis. Donec auctor velit et dui scelerisque, vel imperdiet est vestibulum. Sed cursus quam ante. Vestibulum non faucibus magna. Sed at tellus enim. Praesent quis faucibus magna.
-                Maecenas nec nulla turpis. Mauris consectetur, ex at consectetur euismod, turpis urna facilisis enim, eu ullamcorper ligula nisi id enim.</p>
-            <p class="font-rale font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium tincidunt mauris, nec aliquam libero venenatis porta. Sed faucibus libero quis tortor malesuada, vel rhoncus dolor facilisis. Donec auctor velit et dui scelerisque, vel imperdiet est vestibulum. Sed cursus quam ante. Vestibulum non faucibus magna. Sed at tellus enim. Praesent quis faucibus magna.
-                Maecenas nec nulla turpis. Mauris consectetur, ex at consectetur euismod, turpis urna facilisis enim, eu ullamcorper ligula nisi id enim.</p>
+            <p class="font-rale font-size-14"><?php echo $item['starting_description']?></p>
+            <p class="font-rale font-size-14"><?php echo $item['long_description']?></p>
         </div>
     </div>
 

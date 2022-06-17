@@ -66,11 +66,11 @@ class cart
             foreach ($arr as $item){
                 $sum += floatval($item[0]);
             }
-            return sprintf('%.2f' , $sum);
+            return '₱ ' . number_format($sum, 2);
         }
     }
 
-    // get item_it of shopping cart list
+    // get item_id of shopping cart list
     public function getCartId($cartArray = null, $key = "item_id"){
         if ($cartArray != null){
             $cart_id = array_map(function ($value) use($key){

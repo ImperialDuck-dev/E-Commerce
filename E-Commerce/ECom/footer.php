@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-2 col-12">
                 <div>
-                    <h4 class="font-rubik font-size-20">Information</h4>
+                    <h4 class="font-rubik font-size-20 color-white">Information</h4>
                     <div class="d-flex flex-column flex-wrap">
                         <a href="#" class="font-rale font-size-14 text-white-50 pb-2">About Us</a>
                         <a href="#" class="font-rale font-size-14 text-white-50 pb-2">Delivery Information</a>
@@ -48,7 +48,7 @@
 
 
 <div class="copyright text-center bg-dark text-white py-2">
-    <p class="font-rale font-size-14">&copy; Copyrights 2020. Designed By Hans & Finn<a href="#" class="color-second"></a></p>
+    <p class="font-rale font-size-14">&copy; Copyrights 2020. Designed By <a href="#" class="color-second">Hans & Finn</a></p>
 </div>
 
 

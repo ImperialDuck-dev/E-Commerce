@@ -9,6 +9,9 @@ require ('database/cars.php');
 require ('database/cart.php');
 
 
+
+
+
 //DBController object
 $db = new DBController();
 
