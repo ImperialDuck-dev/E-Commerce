@@ -3,11 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['delete_cart'])){
         $deletedRecord = $Cart->deleteCart($_POST['item_id']);
     }
-    if(isset($_POST['offer_submit']))
-    {
-        //call method addToCart
-        $Cart->addToCart($_POST['user_id'],$_POST['item_id']);
-    }
+
 }
 ?>
 <!-- Shopping cart  -->

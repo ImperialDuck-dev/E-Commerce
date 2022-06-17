@@ -86,6 +86,7 @@ INSERT INTO `cars` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_im
 
 
 
+
 INSERT INTO `cars_secondary` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`,`item_image_secondary`, `item_register`) VALUES
 (11, 'MPV','Avanza 1.5 G CVT',1039000.00,'./assets/cars/11.png','./assets/cars/11Copy.png','2022-06-15 13:05:30'),
 (12, 'MPV','Innova 2.8L V DSL A/T',1774000.00,'./assets/cars/12.png','./assets/cars/12Copy.png','2022-06-15 13:05:30'),
@@ -123,13 +124,13 @@ INSERT INTO `cars_products` (`item_id`, `item_brand`, `item_name`, `item_price`,
 -- Table structure for table `user`
 --
 
-CREATE TABLE `user` (
-  `user_id` int(11) NOT NULL,
-  `first_name` varchar(100) NOT NULL,
-  `last_name` varchar(100) NOT NULL,
-  `register_date` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE `user` (
+                        `user_id` int(11) NOT NULL,
+                        `first_name` varchar(100) NOT NULL,
+                        `last_name` varchar(100) NOT NULL,
+                        `register_date` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 --
 -- Dumping data for table `user`
 --

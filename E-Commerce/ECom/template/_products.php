@@ -1,7 +1,7 @@
 <?php
 
     $item_id= $_GET['item_id'] ?? 1;
-    foreach ($product->getCar_Data()as $item):
+    foreach ($product->getCar_Data('cars_products')as $item):
         if($item['item_id']==$item_id):
 
 
