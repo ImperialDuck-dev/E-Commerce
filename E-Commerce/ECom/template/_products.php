@@ -162,18 +162,20 @@ foreach ($product->getCar_Data('cars_products') as $item):
                 </div>
 
                 <!-- order details  -->
-                <div id="order_details" class="font-rale d-flex flex-column text-dark">
+                <div id="order_details" class="font-rale d-flex flex-column text-dark my-1">
                     <small>Delivery by: Mar-29 - Apr 1</small>
                     <small>Sold by Montemayor Car Dealership</small>
                     <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 69690</small>
                 </div>
             </div>
         </div>
-        <div class="col-12">
-            <h6 class="font-rubik">Product Description</h6>
+        <div class="col-12 text-left">
+            <h6 class="font-rubik font-size-20 ">DESCRIPTION</h6>
             <hr>
             <p class="font-rale font-size-14"><?php echo $item['starting_description']?></p>
-            <p class="font-rale font-size-14"><?php echo $item['long_description']?></p>
+            <h6 class="font-rubik font-size-20 ">SPECIFICATIONS</h6>
+            <hr>
+            <p class="font-rale font-size-14 "><?php echo $item['long_description']?></p>
         </div>
     </div>
 

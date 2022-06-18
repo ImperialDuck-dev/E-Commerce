@@ -16,7 +16,7 @@
     include('template/_banner-ads.php');
 
     /*   include blogs section    */
-   // include('template/_blogs.php');
+    include('template/_blogs.php');
 
 ?>
 

@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-auto color-white font-rubik font-size-30">
                 <li class="nav-item active">
-                    <a class="nav-link mx-5" href="#">ABOUT</a>
+                    <a class="nav-link mx-5" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link mx-5" href="#">BLOG</a>
@@ -50,7 +50,7 @@
                     <a class="nav-link mx-5" href="store.php">STORE </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mx-5" href="#">CONTACT</a>
+                    <a class="nav-link mx-5" href="contact.php">CONTACT</a>
                 </li>
             </ul>
             <form action="#" class="font-size-20 font-rale">

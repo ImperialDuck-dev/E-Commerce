@@ -3,7 +3,7 @@
 <!--Start of Footer -->
 <footer id="footer" class="bg-dark text-white py-5">
     <div class="container">
-        <div class="row">
+        <div class="row bg-dark">
             <div class="col-lg-2 col-12">
                 <div>
                     <h4 class="font-rubik font-size-20 color-white">Information</h4>
