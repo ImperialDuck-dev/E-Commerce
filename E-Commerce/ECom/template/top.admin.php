@@ -1,7 +1,7 @@
 <?php
 require('./template/connections.admin.php');
 require('./template/functions.admin.php');
-
+ob_start();
 if(isset( $_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_USERNAME'] != '') {
 
 }else{
@@ -54,7 +54,7 @@ if(isset( $_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_USERNAME'] != '') {
     <header id="header" class="header color-gray-bg">
         <div class="top-left">
             <div class="navbar-header ">
-                <a class="navbar-brand " href="#"><img src="./Logos%20Black.png " alt="Logo"></a>
+                <a class="navbar-brand " href="./admin-categories.php"><img src="./Logos%20Black.png " alt="Logo"></a>
                 <a class="navbar-brand hidden" href="#"><img src="#" alt="Logo"></a>
             </div>
         </div>
