@@ -9,9 +9,6 @@ require ('database/cars.php');
 require ('database/cart.php');
 
 
-
-
-
 //DBController object
 $db = new DBController();
 
@@ -22,4 +19,9 @@ $product_shuffle = $product->getCar_Data();
 //cart object
 $Cart = new cart($db);
 
+
+
 ?>
+
+
+<?php

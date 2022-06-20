@@ -54,7 +54,7 @@
                 </li>
             </ul>
             <form action="#" class="font-size-20 font-rale">
-                <a href="#">
+                <a href="login.php">
                     <span><i class="fas fa-user color-white mx-2"></i></span>
                 </a>
                 <a href="cart.php">

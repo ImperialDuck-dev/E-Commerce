@@ -1,4 +1,5 @@
 <?php
+session_start();
 class DBController
 {
     //database connection properties

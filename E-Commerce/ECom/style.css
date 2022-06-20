@@ -40,13 +40,6 @@ button, button:focus {
     font-size: 40px;
 }
 
-.font-size-30 {
-    font-size: 30px;
-}
-
-.font-size-40 {
-    font-size: 40px;
-}
 
 .font-size-80 {
     font-size: 80px;
@@ -97,7 +90,7 @@ button, button:focus {
 }
 
 .color-dirty_white-bg{
-    backgroun:#F2F1EF;
+    background:#F2F1EF;
 }
 
 .max-width{

@@ -25,7 +25,7 @@
                 <a href="https://www.facebook.com/JamesonSlime"><i class="fa fa-facebook mx-1"></i></a>
                 <a href="#"><i class="fa fa-instagram mx-1"></i></a>
                 <a href="#"><i class="fa fa-twitter mx-1"></i></a>
-                <a href="#"><i class="fa fa-github mx-1"></i></a>
+                <a href="https://github.com/ImperialDuck-dev"><i class="fa fa-github mx-1"></i></a>
             </div>
         </div>
 
@@ -39,7 +39,7 @@
                 <a href="https://www.facebook.com/HanStein03"><i class="fa fa-facebook mx-1"></i></a>
                 <a href="#"><i class="fa fa-instagram mx-1"></i></a>
                 <a href="#"><i class="fa fa-twitter mx-1"></i></a>
-                <a href="#"><i class="fa fa-github mx-1"></i></a>
+                <a href="https://github.com/hanstein17"><i class="fa fa-github mx-1"></i></a>
             </div>
         </div>
 
