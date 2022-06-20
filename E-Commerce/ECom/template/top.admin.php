@@ -35,13 +35,16 @@ if(isset( $_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_USERNAME'] != '') {
             <ul class="nav navbar-nav">
                 <li class="menu-title">Admin Panel</li>
                 <li class="menu-item-has-children dropdown">
-                    <a href="admin-cars.php" > Cars Directory </a>
+                    <a href="admin-categories.php" > Category Directory </a>
                 </li>
                 <li class="menu-item-has-children dropdown">
-                    <a href="admin-orders.php" > Orders Directory</a>
+                    <a href="admin-cars.php" > Car Directory </a>
                 </li>
                 <li class="menu-item-has-children dropdown">
-                <a href="admin-users.php" > Users Directory</a>
+                    <a href="admin-orders.php" > Order Directory</a>
+                </li>
+                <li class="menu-item-has-children dropdown">
+                <a href="admin-users.php" > User Directory</a>
                 </li>
             </ul>
         </div>

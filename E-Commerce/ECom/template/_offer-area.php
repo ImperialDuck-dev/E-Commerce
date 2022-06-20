@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             <div class="grid-cars border <?php echo $item['item_brand'];?>">
                 <div class="cars py-2" style="width:271px;">
                     <div class="item font-rale">
-                        <a href="<?php printf('%s?item_id=%s','admin-cars.php',$item['item_id'])?>"><img src="<?php echo $item['item_image']?>" alt="cars1" class="img-fluid"</a>
+                        <a href="<?php printf('%s?item_id=%s','product.php',$item['item_id'])?>"><img src="<?php echo $item['item_image']?>" alt="cars1" class="img-fluid"</a>
                         <div class="text-center ">
 
                             <div class="price py-2">

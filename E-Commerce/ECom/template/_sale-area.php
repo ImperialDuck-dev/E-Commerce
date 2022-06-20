@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                 <div class="cars py-2">
                     <div class="item font-rale">
                         <div class="d-flex flex-column">
-                            <a href="<?php printf('%s?item_id=%s','admin-cars.php',$item['item_id'])?>"><img src="<?php echo $item['item_image_secondary']?>" alt="cars1" class="img-fluid mx-2 "></a>
+                            <a href="<?php printf('%s?item_id=%s','product.php',$item['item_id'])?>"><img src="<?php echo $item['item_image_secondary']?>" alt="cars1" class="img-fluid mx-2 "></a>
                             <div class="text-center ">
                                 <h6 class="font-baloo font-size-20"><?php echo $item['item_name']?></h6>
                                 <div class="price py-2">
