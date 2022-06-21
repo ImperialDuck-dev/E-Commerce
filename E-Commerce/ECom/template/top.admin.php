@@ -41,6 +41,12 @@ if(isset( $_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_USERNAME'] != '') {
                     <a href="admin-cars.php" > Car Directory </a>
                 </li>
                 <li class="menu-item-has-children dropdown">
+                    <a href="admin-sale.php" > Sale Ad Directory </a>
+                </li>
+                <li class="menu-item-has-children dropdown">
+                    <a href="admin-offer.php" > Offer Ad Directory </a>
+                </li>
+                <li class="menu-item-has-children dropdown">
                     <a href="admin-orders.php" > Order Directory</a>
                 </li>
                 <li class="menu-item-has-children dropdown">

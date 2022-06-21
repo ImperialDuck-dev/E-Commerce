@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 ?>
 
 <section id="offer">
-    <div class="container my-3">
+    <div class="container my-3 ">
         <h4 class="font-rubik font-size-40 text-center">SPECIAL OFFER</h4>
         <div id="filters"class="button-group text-right">
             <button class="btn all" type="button" data-filter="*">ALL CARS</button>

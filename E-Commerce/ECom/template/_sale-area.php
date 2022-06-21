@@ -16,7 +16,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 }
 ?>
 <section id ="sale">
-    <div class="container py-5 color-dirty_white-bg">
+    <div class="container py-5 ">
         <h4 class="font-rubik text-center font-size-40 py-2">ON SALE</h4>
         <hr>
         <div class="owl-carousel owl-theme">
