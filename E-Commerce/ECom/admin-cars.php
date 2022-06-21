@@ -41,7 +41,6 @@ $res=mysqli_query($con,$sql);
                                     <tr>
                                         <th class="serial">#</th>
                                         <th>ID</th>
-                                        <th>Category</th>
                                         <th>Brand</th>
                                         <th>Name</th>
                                         <th>Image</th>
@@ -61,7 +60,6 @@ $res=mysqli_query($con,$sql);
                                         <tr>
                                             <td class="serial"><?php echo $i?></td>
                                             <td><?php echo $row['item_id']?></td>
-                                            <td><?php echo $row['category_id']?></td>
                                             <td><?php echo $row['item_brand']?></td>
                                             <td><?php echo $row['item_name']?></td>
                                             <td><img src="<?php echo $row['item_image']?>"/></td>

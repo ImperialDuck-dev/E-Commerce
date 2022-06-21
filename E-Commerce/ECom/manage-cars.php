@@ -30,20 +30,19 @@ if(isset($_GET['id']) && $_GET['id']!=''){
         $description=$row['long_description'];
 
     }else{
-        header('location:product.php');
+        header('location:admin-cars.php');
         die();
     }
 }
 if(isset($_POST['submit'])){
-    $categories_id=get_safe_value($con,$_POST['category_id']);
-    $name=get_safe_value($con,$_POST['item_name']);
-    $brand=get_safe_value($con,$_POST['item_brand']);
-    $mrp=get_safe_value($con,$_POST['mr_price']);
-    $price=get_safe_value($con,$_POST['item_price']);
+    $name=get_safe_value($con,$_POST['name']);
+    $brand=get_safe_value($con,$_POST['brand']);
+    $mrp=get_safe_value($con,$_POST['mrp']);
+    $price=get_safe_value($con,$_POST['price']);
     $qty=get_safe_value($con,$_POST['qty']);
-    $register=get_safe_value($con,$_POST['item_register']);
-    $short_desc=get_safe_value($con,$_POST['starting_description']);
-    $description=get_safe_value($con,$_POST['long_description']);
+    $register=get_safe_value($con,$_POST['register']);
+    $short_desc=get_safe_value($con,$_POST['short_desc']);
+    $description=get_safe_value($con,$_POST['description']);
 
 
 
@@ -90,7 +89,7 @@ if(isset($_POST['submit'])){
             move_uploaded_file($_FILES['image']['tmp_name'],$image);
             mysqli_query($con,"insert into `montemayor car dealership`.cars_products(category_id,item_brand,item_name,mr_price,item_price,qty,item_register,starting_description,long_description,status,item_image) values('$categories_id','$brand','$name','$mrp','$price','$qty','$register','$short_desc','$description',1,'$image')");
         }
-        header('location:product.php');
+        header('location:admin-cars.php');
         die();
     }
 
@@ -105,6 +104,23 @@ if(isset($_POST['submit'])){
                         <div class="card-header"><strong>Car</strong><small> Form</small></div>
                         <form method="post" enctype="multipart/form-data">
                             <div class="card-body card-block">
+                                <div class="form-group">
+                                    <label for="categories" class=" form-control-label">Categories</label>
+                                    <select class="form-control" name="categories_id">
+                                        <option>Select Category</option>
+                                        <?php
+                                        $res=mysqli_query($con,"select cat_ID,categories from categories order by categories asc");
+                                        while($row=mysqli_fetch_assoc($res)){
+                                            if($row['id']==$categories_id){
+                                                echo "<option selected value=".$row['cat_ID'].">".$row['categories']."</option>";
+                                            }else{
+                                                echo "<option value=".$row['cat_ID'].">".$row['categories']."</option>";
+                                            }
+
+                                        }
+                                        ?>
+                                    </select>
+                                </div>
                                 <div class="form-group">
                                     <label for="categories" class=" form-control-label">Car Name</label>
                                     <input type="text" name="name" placeholder="Enter product name" class="form-control" required value="<?php echo $name?>">
