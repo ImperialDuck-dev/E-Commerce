@@ -44,7 +44,7 @@
                     <a class="nav-link mx-5" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mx-5" href="#">BLOG</a>
+                    <a class="nav-link mx-5" href="blog.php">BLOG</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link mx-5" href="store.php">STORE </a>

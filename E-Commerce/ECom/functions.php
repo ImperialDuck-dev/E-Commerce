@@ -1,12 +1,12 @@
 <?php
 //require MYSQL connection
-require ('database/DBController.php');
+require ('D:\E-Commerce\E-Commerce\ECom\database\DBController.php');
 
 //require car class
-require ('database/cars.php');
+require ('D:\E-Commerce\E-Commerce\ECom\database\cars.php');
 
 //require cart class
-require ('database/cart.php');
+require ('D:\E-Commerce\E-Commerce\ECom\database\cart.php');
 
 
 //DBController object

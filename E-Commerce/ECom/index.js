@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    $(".readmore-btn").on('click',function(){
+        $(this).parent().toggleClass("showContent");
+
+        var replaceText = $(this).parent().hasClass("showContent")? "Read Less" : "Read More";
+        $(this).text(replaceText);
+    });
 
     $("#banner .owl-carousel").owlCarousel({
         dots: true,
