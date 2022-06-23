@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed53652f-7370-4ed2-a6fc-a3d28e14f11d" name="Changes" comment="" />
+    <list default="true" id="ed53652f-7370-4ed2-a6fc-a3d28e14f11d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/934a4aa0-d7f2-45f9-b07b-0794406fb1b8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/934a4aa0-d7f2-45f9-b07b-0794406fb1b8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/934a4aa0-d7f2-45f9-b07b-0794406fb1b8/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/934a4aa0-d7f2-45f9-b07b-0794406fb1b8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/934a4aa0-d7f2-45f9-b07b-0794406fb1b8/storage_v2/_src_/schema/shoppee.Wmo1ew.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +93,7 @@
       <workItem from="1655793102973" duration="3777000" />
       <workItem from="1655802042637" duration="566000" />
       <workItem from="1655918218119" duration="1171000" />
+      <workItem from="1655996664121" duration="186000" />
     </task>
     <servers />
   </component>
